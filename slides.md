@@ -45,6 +45,18 @@ style: |
 **Presenter:** 23f2004422@ds.study.iitm.ac.in
 
 ---
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1551281044-8f5418240f2b?auto=format&fit=crop&w=1600&q=80') -->
+<!-- _backgroundSize: cover -->
+<!-- _color: #ffffff -->
+
+# Architecture at a Glance
+
+- Multi-tenant, region-aware API  
+- SDK retries with exponential backoff  
+- Structured logs & metrics
+
+> This background image makes the slide more engaging.
+---
 
 <!-- _backgroundImage: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2015&q=80') -->
 <!-- _class: invert -->
