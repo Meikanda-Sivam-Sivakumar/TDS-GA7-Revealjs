@@ -2,7 +2,7 @@
 marp: true
 theme: default
 paginate: true
-backgroundImage: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80')
+backgroundImage: url('2026_ford_mustang_coupe_dark-horse_fq_oem_1_600 .png')
 style: |
   section {
     background-color: rgba(255, 255, 255, 0.9);
@@ -34,7 +34,7 @@ style: |
   }
 ---
 
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80') -->
+<!-- _backgroundImage: url('2026_ford_mustang_coupe_dark-horse_fq_oem_1_600 .png') -->
 <!-- _color: white -->
 <!-- _class: lead -->
 
@@ -58,7 +58,7 @@ style: |
 > This background image makes the slide more engaging.
 ---
 
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2015&q=80') -->
+<!-- _backgroundImage: url('2026_ford_mustang_coupe_dark-horse_fq_oem_1_600 .png') -->
 <!-- _class: invert -->
 
 # Executive Summary
