@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Quarterly Earnings Report</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Reveal.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/monokai.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- Title Slide -->
+      <section>
+        <h1>Quarterly Earnings Report</h1>
+        <h3>Financial Institution</h3>
+        <p>Prepared by: Technical Consultant</p>
+        <p>Email: <a href="mailto:23f2004422@ds.study.iitm.ac.in">23f2004422@ds.study.iitm.ac.in</a></p>
+        <aside class="notes">
+          Welcome stakeholders! This session will walk through the quarterly financial performance using modern interactive presentation features.
+        </aside>
+      </section>
+
+      <!-- Markdown Slide -->
+      <section data-markdown>
+        <textarea data-template>
+# Key Highlights
+
+- Revenue growth: **12%** YoY
+- Net profit margin improved by *3%*
+- Increased customer acquisition in APAC region
+
+## Slide about markdown
+To write a markdown you have use these things
+- `<section data-markdown>` this denotes markdown
+- `<textarea data-template>` this is the template
+        </textarea>
+        <aside class="notes">
+          This slide summarizes key highlights in Markdown format.
+        </aside>
+      </section>
+
+      <!-- Fragment Animation -->
+      <section data-auto-animate>
+        <h2>Quarterly Breakdown</h2>
+        <ul>
+          <li class="fragment">Q1: $2.5B Revenue</li>
+          <li class="fragment">Q2: $2.9B Revenue</li>
+          <li class="fragment">Q3: $3.1B Revenue</li>
+          <li class="fragment">Q4: $3.4B Revenue</li>
+        </ul>
+        <aside class="notes">
+          Use fragments to sequentially reveal each quarter's performance.
+        </aside>
+      </section>
+
+      <!-- Code Sample with Syntax Highlighting -->
+      <section data-auto-animate>
+        <h2>Data Processing Snippet</h2>
+        <pre><code class="language-python" data-line-numbers='1|3-4|6-7|9'>
+import pandas as pd
+
+# Load earnings dataset
+df = pd.read_csv("earnings.csv")
+
+# Calculate quarterly growth
+df['growth'] = df['revenue'].pct_change()
+
+print(df.head())
+        </code></pre>
+        <aside class="notes">
+          This code snippet demonstrates how we processed revenue data using Pandas.
+        </aside>
+      </section>
+
+      <!-- Mathematical Equation -->
+      <section>
+        <h2>Financial Formula</h2>
+        <p>Return on Equity (ROE):</p>
+        <p>$$ ROE = \frac{Net\ Income}{Shareholder\'s\ Equity} $$</p>
+        <aside class="notes">
+          This formula illustrates how Return on Equity is calculated.
+        </aside>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/math/math.js"></script>
+
+  <script>
+    Reveal.initialize({
+      hash: true,
+      plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+    });
+  </script>
+</body>
+</html>
