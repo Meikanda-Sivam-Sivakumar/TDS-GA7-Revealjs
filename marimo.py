@@ -3,10 +3,10 @@ import marimo
 __generated_with = "0.8.0"
 app = marimo.App(width="medium")
 
-#23f200422@ds.study.iitm.ac.in
+#23f2004422@ds.study.iitm.ac.in
 @app.cell
 def __():
-    # Author: 23f200422@ds.study.iitm.ac.in
+    # Author: 23f2004422@ds.study.iitm.ac.in
     # Interactive Data Analysis with Marimo
     # This notebook demonstrates reactive programming with variable dependencies
     
@@ -20,11 +20,11 @@ def __():
     mo.md("""
     # Interactive Data Analysis with Marimo
     
-    **Author:** 23f200422@ds.study.iitm.ac.in  
+    **Author:** 23f2004422@ds.study.iitm.ac.in  
     **Date:** August 16, 2025
     
     This notebook demonstrates Marimo's reactive programming capabilities with:
-    by 23f200422@ds.study.iitm.ac.in
+    by 23f2004422@ds.study.iitm.ac.in
     - Variable dependencies between cells
     - Interactive widgets
     - Dynamic markdown output
@@ -392,7 +392,7 @@ def __(mo):
     ## 📋 Notebook Structure & Dependencies
     
     This Marimo notebook demonstrates reactive programming with the following cell dependencies:
-    by (23f200422@ds.study.iitm.ac.in) 23f200422@ds.study.iitm.ac.in
+    by (23f2004422@ds.study.iitm.ac.in) 23f2004422@ds.study.iitm.ac.in
     1. **Cell 1** (Data Generation) → **Cell 3** (Data Processing)
     2. **Cell 2** (Interactive Controls) → **Cell 3, 4, 5, 6** (Processing & Visualization)
     3. **Cell 3** (Filtered Data) → **Cell 4, 5, 6, 7** (Analysis & Output)
@@ -409,7 +409,7 @@ def __(mo):
     Raw Data → User Controls → Filtered Data → Analysis → Visualizations & Reports
     ```
     
-    **Author**: 23f200422@ds.study.iitm.ac.in  
+    **Author**: 23f2004422@ds.study.iitm.ac.in  
     **Created with**: Marimo v0.8.0  
     **Date**: August 16, 2025
     """)
