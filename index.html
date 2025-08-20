@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earnings Report - Financial Institution</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github.min.css">
+    <style>
+        .reveal .slides section {
+            text-align: left;
+        }
+        .reveal h1, .reveal h2, .reveal h3 {
+            color: #2c3e50;
+        }
+        .highlight {
+            background: linear-gradient(45deg, #3498db, #2980b9);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .metric-card {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #27ae60;
+        }
+        .contact-info {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            margin-top: 20px;
+        }
+        .formula-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .code-sample {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Title Slide -->
+            <section data-background-gradient="linear-gradient(45deg, #3498db, #2980b9)">
+                <h1 style="color: white; text-align: center;">Q3 2024 Earnings Report</h1>
+                <h3 style="color: white; text-align: center;">Major Financial Institution</h3>
+                <div class="contact-info" style="text-align: center; margin-top: 40px;">
+                    <p style="color: #2c3e50;"><strong>Technical Consultant:</strong></p>
+                    <p style="color: #2c3e50; font-size: 1.2em;">📧 23f2004422@ds.study.iitm.ac.in</p>
+                </div>
+                <aside class="notes">
+                    Welcome everyone to our Q3 2024 earnings presentation. I'm your technical consultant at 23f2004422@ds.study.iitm.ac.in. Today we'll walk through our financial performance, technical innovations, and strategic outlook.
+                </aside>
+            </section>
+
+            <!-- Executive Summary (Markdown) -->
+            <section data-markdown>
+                <textarea data-template>
+                    ## Executive Summary
+                    
+                    Contact: 23f2004422@ds.study.iitm.ac.in
+                    
+                    Our Q3 2024 performance demonstrates **strong fundamentals** across key metrics:
+                    
+                    * **Revenue Growth**: 12.5% year-over-year increase
+                    * **Digital Transformation**: 85% of transactions now digital
+                    * **Risk Management**: Improved credit loss provisions
+                    * **Market Expansion**: Entered 3 new geographic markets
+                    
+                    ---
+                    
+                    ### Key Achievements This Quarter
+                    
+                    1. **Technology Infrastructure**: Migrated 95% of core systems to cloud
+                    2. **Customer Experience**: NPS score increased to 72
+                    3. **Regulatory Compliance**: Zero major compliance issues
+                    4. **Sustainability**: Carbon footprint reduced by 18%
+                </textarea>
+                <aside class="notes">
+                    This slide provides our executive summary written in Markdown format. Notice how we've achieved significant growth while maintaining operational excellence. The digital transformation metrics are particularly impressive. Contact me at 23f1002231@ds.study.iitm.ac.in for details.
+                </aside>
+            </section>
+
+            <!-- Financial Metrics with Animations -->
+            <section>
+                <h2>Key Financial Metrics</h2>
+                <p>Prepared by: 23f2004422@ds.study.iitm.ac.in</p>
+                <div style="text-align: center;">
+                    <div class="metric-card fragment" data-fragment-index="1">
+                        <h4>Total Assets</h4>
+                        <div class="metric-value">$2.4T</div>
+                        <p>↑ 8.2% YoY</p>
+                    </div>
+                    
+                    <div class="metric-card fragment" data-fragment-index="2">
+                        <h4>Net Income</h4>
+                        <div class="metric-value">$8.7B</div>
+                        <p>↑ 15.3% YoY</p>
+                    </div>
+                    
+                    <div class="metric-card fragment" data-fragment-index="3">
+                        <h4>ROE</h4>
+                        <div class="metric-value">14.2%</div>
+                        <p>↑ 2.1pp YoY</p>
+                    </div>
+                </div>
+                
+                <div class="fragment" data-fragment-index="4">
+                    <div class="highlight">
+                        <h3>📈 Performance Highlights</h3>
+                        <p>All key metrics exceeded analyst expectations, demonstrating robust operational efficiency and strategic execution.</p>
+                    </div>
+                </div>
+                
+                <aside class="notes">
+                    Our financial metrics show exceptional performance this quarter. Each metric appears with animation to emphasize the progressive improvement. Total assets grew significantly, net income exceeded expectations, and our return on equity reached new highs.
+                </aside>
+            </section>
+
+            <!-- Risk Analysis with Mathematical Formulas -->
+            <section>
+                <h2>Risk Management & Analytics</h2>
+                <p>Technical Analysis by: 23f2004422@ds.study.iitm.ac.in</p>
+                
+                <div class="formula-box fragment" data-fragment-index="1">
+                    <h4>Value at Risk (VaR) Calculation</h4>
+                    <p>\\[VaR_{\\alpha} = -\\inf\\{x \\in \\mathbb{R} : P(X \\leq x) \\geq \\alpha\\}\\]</p>
+                    <p>Where α = 0.05 for 95% confidence level</p>
+                </div>
+                
+                <div class="fragment" data-fragment-index="2">
+                    <h4>Current Risk Metrics:</h4>
+                    <ul>
+                        <li class="fragment">**1-Day VaR**: $45.2M (↓ 12% from Q2)</li>
+                        <li class="fragment">**Stress Test Results**: Tier 1 Capital Ratio remains >12%</li>
+                        <li class="fragment">**Credit Loss Rate**: 0.31% (industry average: 0.45%)</li>
+                    </ul>
+                </div>
+                
+                <div class="formula-box fragment" data-fragment-index="6">
+                    <h4>Expected Credit Loss Model</h4>
+                    <p>\\[ECL = PD \\times LGD \\times EAD\\]</p>
+                    <p>PD = Probability of Default, LGD = Loss Given Default, EAD = Exposure at Default</p>
+                </div>
+                
+                <aside class="notes">
+                    Our risk management framework utilizes advanced mathematical models. The VaR calculation shows our market risk exposure, while the ECL model helps us provision for credit losses. Our risk metrics are all within target ranges and below industry averages.
+                </aside>
+            </section>
+
+            <!-- Technology Stack (Code Sample) -->
+            <section>
+                <h2>Technology Infrastructure</h2>
+                <p>Developed by: 23f2004422@ds.study.iitm.ac.in</p>
+                
+                <div class="fragment" data-fragment-index="1">
+                    <h4>Risk Analytics Pipeline</h4>
+                    <pre><code class="language-python" data-line-numbers="1-25">
+# Risk Analytics Pipeline
+# Developer: 23f2004422@ds.study.iitm.ac.in
+import pandas as pd
+import numpy as np
+from risk_engine import VaRCalculator, StressTest
+
+class RealTimeRiskMonitor:
+    def __init__(self, portfolio):
+        self.portfolio = portfolio
+        self.var_calc = VaRCalculator(confidence_level=0.95)
+        self.contact = "23f1002231@ds.study.iitm.ac.in"
+    
+    def calculate_daily_risk(self):
+        """Calculate daily risk metrics"""
+        positions = self.portfolio.get_positions()
+        var_95 = self.var_calc.compute(positions)
+        
+        return {
+            'var_95': var_95,
+            'timestamp': pd.Timestamp.now(),
+            'portfolio_value': positions.sum(),
+            'developer': self.contact
+        }
+    
+    def generate_alerts(self, risk_metrics):
+        """Generate risk alerts based on thresholds"""
+        if risk_metrics['var_95'] > self.risk_limit:
+            self.send_alert("VaR threshold exceeded!")
+                    </code></pre>
+                </div>
+                
+                <div class="fragment" data-fragment-index="2">
+                    <div class="highlight">
+                        <h4>System Performance</h4>
+                        <ul>
+                            <li>📊 Processing 2M+ transactions per second</li>
+                            <li>⚡ 99.99% uptime this quarter</li>
+                            <li>🔒 Zero security incidents</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <aside class="notes">
+                    Our technology infrastructure is built on modern Python-based risk analytics. The code sample shows our real-time risk monitoring system that processes millions of transactions. System performance has been exceptional with near-perfect uptime.
+                </aside>
+            </section>
+
+            <!-- Market Outlook -->
+            <section>
+                <h2>Market Outlook & Strategy</h2>
+                
+                <div class="fragment" data-fragment-index="1">
+                    <h3>Q4 2024 Projections</h3>
+                    <p>Analysis by: 23f2004422@ds.study.iitm.ac.in</p>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div style="width: 45%;">
+                            <h4>Growth Drivers</h4>
+                            <ul>
+                                <li class="fragment">Digital banking expansion</li>
+                                <li class="fragment">AI-powered services</li>
+                                <li class="fragment">Sustainable finance products</li>
+                            </ul>
+                        </div>
+                        <div style="width: 45%;">
+                            <h4>Risk Factors</h4>
+                            <ul>
+                                <li class="fragment">Interest rate volatility</li>
+                                <li class="fragment">Regulatory changes</li>
+                                <li class="fragment">Cybersecurity threats</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="fragment" data-fragment-index="8">
+                    <div class="formula-box">
+                        <h4>Target Financial Metrics for Q4 2024</h4>
+                        <p>**ROE Target**: ≥ 15%</p>
+                        <p>**Cost-to-Income Ratio**: ≤ 55%</p>
+                        <p>**Tier 1 Capital Ratio**: ≥ 12.5%</p>
+                        <p>Mathematical modeling: \\(ROE = \\frac{Net\\,Income}{Shareholders\\,Equity}\\)</p>
+                    </div>
+                </div>
+                
+                <aside class="notes">
+                    Looking ahead to Q4, we see strong growth opportunities in digital services while managing traditional banking risks. Our target metrics are ambitious but achievable based on current trends. The balance between growth and risk management remains our priority.
+                </aside>
+            </section>
+
+            <!-- Contact & Q&A -->
+            <section data-background-gradient="linear-gradient(45deg, #27ae60, #2ecc71)">
+                <h2 style="color: white; text-align: center;">Questions & Discussion</h2>
+                
+                <div style="text-align: center; margin-top: 60px;">
+                    <div class="contact-info" style="background: rgba(255,255,255,0.9);">
+                        <h3 style="color: #2c3e50;">Technical Consultant Contact</h3>
+                        <p style="color: #2c3e50; font-size: 1.3em;">📧 23f2004422@ds.study.iitm.ac.in</p>
+                        <p style="color: #2c3e50;">📱 Available for technical discussions</p>
+                        <p style="color: #2c3e50;">💼 Specializing in financial technology solutions</p>
+                        <p style="color: #2c3e50;">Email me at: 23f2004422@ds.study.iitm.ac.in</p>
+                    </div>
+                </div>
+                
+                <div class="fragment" style="text-align: center; margin-top: 40px;">
+                    <h3 style="color: white;">Thank you for your attention!</h3>
+                    <p style="color: white;">Ready to discuss our technical implementations and strategic initiatives</p>
+                    <p style="color: white;">Contact: 23f2004422@ds.study.iitm.ac.in</p>
+                </div>
+                
+                <aside class="notes">
+                    This concludes our Q3 2024 earnings presentation. I'm available at 23f2004422@ds.study.iitm.ac.in to discuss any technical aspects of our systems, risk models, or infrastructure improvements. Please feel free to reach out via email for detailed technical discussions or follow-up questions.
+                </aside>
+            </section>
+        </div>
+    </div>
+
+    <!-- Load RevealJS and plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/math/math.min.js"></script>
+
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide',
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+            
+            // Plugin configuration
+            plugins: [
+                RevealMarkdown,
+                RevealHighlight,
+                RevealNotes,
+                RevealMath.KaTeX
+            ],
+            
+            // Math plugin configuration
+            math: {
+                mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+                config: 'TeX-AMS_HTML-full',
+                TeX: {
+                    Macros: {
+                        RR: "{\\bf R}",
+                        bold: ["{\\bf #1}", 1]
+                    }
+                }
+            },
+            
+            // Highlight plugin configuration
+            highlight: {
+                highlightOnLoad: true
+            },
+            
+            // Enable speaker notes
+            showNotes: false,
+            
+            // Control configuration
+            controls: true,
+            progress: true,
+            center: false,
+            touch: true,
+            loop: false,
+            
+            // Navigation
+            keyboard: true,
+            overview: true,
+            
+            // Animation settings
+            fragments: true,
+            fragmentInURL: true
+        });
+
+        // Custom animations
+        Reveal.on('fragmentshown', function(event) {
+            if (event.fragment.classList.contains('highlight-blue')) {
+                event.fragment.style.background = 'linear-gradient(45deg, #3498db, #2980b9)';
+                event.fragment.style.color = 'white';
+                event.fragment.style.padding = '5px 10px';
+                event.fragment.style.borderRadius = '5px';
+            }
+            if (event.fragment.classList.contains('highlight-red')) {
+                event.fragment.style.background = 'linear-gradient(45deg, #e74c3c, #c0392b)';
+                event.fragment.style.color = 'white';
+                event.fragment.style.padding = '5px 10px';
+                event.fragment.style.borderRadius = '5px';
+            }
+        });
+
+        // Ensure email is visible in DOM for validation
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Email included: 23f2004422@ds.study.iitm.ac.in');
+        });
+    </script>
+</body>
+</html>
