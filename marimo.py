@@ -24,6 +24,7 @@ def __():
     **Date:** August 16, 2025
     
     This notebook demonstrates Marimo's reactive programming capabilities with:
+    by 23f200422@ds.study.iitm.ac.in
     - Variable dependencies between cells
     - Interactive widgets
     - Dynamic markdown output
@@ -391,7 +392,7 @@ def __(mo):
     ## 📋 Notebook Structure & Dependencies
     
     This Marimo notebook demonstrates reactive programming with the following cell dependencies:
-    
+    by (23f200422@ds.study.iitm.ac.in) 23f200422@ds.study.iitm.ac.in
     1. **Cell 1** (Data Generation) → **Cell 3** (Data Processing)
     2. **Cell 2** (Interactive Controls) → **Cell 3, 4, 5, 6** (Processing & Visualization)
     3. **Cell 3** (Filtered Data) → **Cell 4, 5, 6, 7** (Analysis & Output)
